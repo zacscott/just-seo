@@ -11,11 +11,6 @@ use JustSEO\Model\SEOMetaModel;
  */
 class MetaBoxController {
 
-    /**
-     * Path to the meta box template within the plugin root.
-     */
-    const TEMPLATE_PATH = 'templates/meta-box/';
-
     public function __construct() {
         
         add_action( 'add_meta_boxes', [ $this, 'add_meta_boxes' ] );
@@ -61,7 +56,7 @@ class MetaBoxController {
         $seo_model = new SEOMetaModel();
 
         // Render the meta box template.
-        require_once JUST_SEO_PLUGIN_ABSPATH . '/' . self::TEMPLATE_PATH . '/template.php';
+        require_once JUST_SEO_PLUGIN_ABSPATH . '/templates/meta-box/template.php';
 
     }
 
