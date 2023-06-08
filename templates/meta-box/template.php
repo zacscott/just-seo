@@ -8,9 +8,18 @@
     <div class="field">
         <label for="just_seo_robots">Robots</label>
         <select name="just_seo_robots">
-            <!-- TODO render the selected option -->
-            <option>index, follow</option>
-            <option>noindex, nofollow</option>
+            <?php 
+            
+            foreach ( $seo_model->get_robots_options() as $option ) : 
+            
+                $selected = $seo_model->get_robots() === $option ? 'selected' : '';
+
+                ?>
+                <option <?php echo $selected ?>><?php echo esc_html( $option ); ?></option>
+                <?php
+            endforeach; 
+            
+            ?>
         </select>
     </div>
 

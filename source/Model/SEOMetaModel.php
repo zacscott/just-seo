@@ -147,4 +147,22 @@ class SEOMetaModel {
 
     }
 
+    /** 
+     * Get all robots meta options.
+     * 
+     * @return array The robots meta options.
+     */
+    public function get_robots_options() {
+
+        $options = [
+            'index, follow',
+            'noindex, follow',
+            'index, nofollow',
+            'noindex, nofollow',
+        ];
+
+        return $options;
+
+    }
+
 }
