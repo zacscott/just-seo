@@ -16,3 +16,4 @@ define( 'JUST_SEO_PLUGIN_ABSURL', plugin_dir_url( __FILE__ )  );
 // Boot each of the plugin logic controllers.
 new \JustSEO\Controller\MetaBoxController();
 new \JustSEO\Controller\PageSEOMetaController();
+new \JustSEO\Controller\SitemapController();
