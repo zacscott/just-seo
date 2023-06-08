@@ -53,7 +53,7 @@ class PageSEOMetaController {
         $seo_model = new SEOMetaModel();
 
         // Render the meta box template.
-        require_once JUST_SEO_PLUGIN_ABSPATH . '/templates/meta-html'/template.php';
+        require_once JUST_SEO_PLUGIN_ABSPATH . '/templates/meta-html/template.php';
 
     }
 
