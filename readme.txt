@@ -3,7 +3,7 @@ Contributors: zacscottau
 Tags: seo
 Requires at least: 6.0
 Tested up to: 6.2.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 Requires PHP: 7.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -28,6 +28,9 @@ That is all you really need and that is what you get. Simple, clean, intuitive.
 1. Simple, nop fuss SEO meta data.
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix sitemap to alwasy return XML under a 200 OK HTTP header.
 
 = 1.0 =
 * Initial release.

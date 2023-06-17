@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Just SEO
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Zac Scott
  * Author URI:  https://zacscott.net
  * Description: Essential SEO functionality for WordPress.
