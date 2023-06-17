@@ -38,6 +38,7 @@ class SitemapController {
         
         $query = $this->get_sitemap_query();
 
+        status_header( 200 );
         header( 'Content-Type: application/xml; charset=utf-8' );
         require_once JUST_SEO_PLUGIN_ABSPATH . '/templates/sitemap/template.php';
 
