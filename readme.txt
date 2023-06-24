@@ -12,7 +12,7 @@ Essential SEO functionality for WordPress.
 
 == Description ==
 
-Are you sick of the big SEO plguins, with all of their bloat and unnecessary bells and whistles? Then Just SEO might just be for you!
+Are you sick of the big SEO plugins, with all of their bloat and unnecessary bells and whistles? Then Just SEO might just be for you!
 
 As the name suggests it includes just the essentials for optimising SEO on your site. The features include:
 
@@ -30,7 +30,7 @@ That is all you really need and that is what you get. Simple, clean, intuitive.
 == Changelog ==
 
 = 1.0.1 =
-* Fix sitemap to alwasy return XML under a 200 OK HTTP header.
+* Fix sitemap to always return XML with a 200 OK HTTP header.
 
 = 1.0 =
 * Initial release.
