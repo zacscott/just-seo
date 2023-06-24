@@ -25,7 +25,7 @@ That is all you really need and that is what you get. Simple, clean, intuitive.
 
 == Screenshots ==
 
-1. Simple, nop fuss SEO meta data.
+1. Simple, no fuss SEO meta data.
 
 == Changelog ==
 
