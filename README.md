@@ -1,5 +1,5 @@
 
-# Just SEO
+# Just SEO - WordPress Plugin
 
 Essential SEO functionality for WordPress.
 
