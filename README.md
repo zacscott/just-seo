@@ -1,7 +1,7 @@
 
 # Just SEO
 
-Are you sick of the big SEO plugins, with all of their bloat and unnecessary bells and whistles? Then Just SEO might just be for you!
+Essential SEO functionality for WordPress.
 
 As the name suggests it includes just the essentials for optimising SEO on your site. The features include:
 
