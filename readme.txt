@@ -29,7 +29,10 @@ That is all you really need and that is what you get. Simple, clean, intuitive.
 
 == Changelog ==
 
-= 1.0.03 =
+= 1.0.4 =
+* Fix a bug which nuked meta data when quick editing posts.
+
+= 1.0.3 =
 * Add meta description and robots to post list/table.
 
 = 1.0.2 =
