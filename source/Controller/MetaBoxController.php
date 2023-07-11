@@ -72,14 +72,19 @@ class MetaBoxController {
         // WordPress first authenticates the user and then checks the edit page nonce before calling this
         // save_post hook.
 
-        $robots    = $_POST['just_seo_robots'] ?? '';
-        $canonical = $_POST['just_seo_canonical'] ?? '';
-        $desc      = $_POST['just_seo_desc'] ?? '';
-
         $seo_model = new SEOMetaModel();
-        $seo_model->set_robots( $robots, $post_id );
-        $seo_model->set_canonical( $canonical, $post_id );
-        $seo_model->set_desc( $desc, $post_id );
+
+        if ( isset( $_POST['just_seo_robots'] ) ) {
+            $seo_model->set_robots( $_POST['just_seo_robots'], $post_id );
+        }
+
+        if ( isset( $_POST['just_seo_canonical'] ) ) {
+            $seo_model->set_canonical( $_POST['just_seo_canonical'], $post_id );
+        }
+
+        if ( isset( $_POST['just_seo_desc'] ) ) {
+            $seo_model->set_desc( $_POST['just_seo_desc'], $post_id );
+        }
 
     }
 
