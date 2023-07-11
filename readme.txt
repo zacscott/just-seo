@@ -29,6 +29,9 @@ That is all you really need and that is what you get. Simple, clean, intuitive.
 
 == Changelog ==
 
+= 1.0.03 =
+* Add meta description and robots to post list/table.
+
 = 1.0.2 =
 * Change plugin file.
 
