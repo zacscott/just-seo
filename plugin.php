@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Just SEO
- * Version:     1.0.2
+ * Version:     1.0.3
  * Author:      Zac Scott
  * Author URI:  https://zacscott.net
  * Description: Essential SEO functionality for WordPress.
@@ -17,3 +17,4 @@ define( 'JUST_SEO_PLUGIN_ABSURL', plugin_dir_url( __FILE__ )  );
 new \JustSEO\Controller\MetaBoxController();
 new \JustSEO\Controller\PageSEOMetaController();
 new \JustSEO\Controller\SitemapController();
+new \JustSEO\Controller\AdminColumnsController();
