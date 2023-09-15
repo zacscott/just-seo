@@ -20,6 +20,8 @@ class AdminColumnsController {
         add_action( 'manage_post_posts_custom_column' , [ $this, 'render_admin_column' ], 10, 2 );
         add_action( 'manage_page_posts_custom_column' , [ $this, 'render_admin_column' ], 10, 2 );
 
+        add_Action( 'admin_head', [ $this, 'render_css' ] );
+
     }
 
     /**
@@ -78,6 +80,19 @@ class AdminColumnsController {
 
         return $excerpt;
 
+    }
+
+    /**
+     * Render the CSS for the admin columns.
+     * 
+     * @return mixed 
+     */
+    public function render_css() {
+        ?>
+        <style>
+            .column-seo_robots { width: 10em; }
+        </style>
+        <?php
     }
 
 }
